@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -401,6 +404,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
+        <!-- Social links -->
         <div class="footer-social-container">
           <p class="footer-social-title">Social media</p>
           <ul class="footer-social-list list">
@@ -433,6 +437,26 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- Form -->
+        <div class="footer-form">
+          <form>
+            <h3 class="form-title">Subscribe</h3>
+            <label class="footer-label">
+              <input
+                class="footer-label-input"
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-form-button" type="submit">
+              <span class="button-name">Subscribe</span>
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-message"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
