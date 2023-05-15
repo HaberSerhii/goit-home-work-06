@@ -907,6 +907,11 @@ input.footer-label-input::placeholder {
   height: 58px;
 }
 
+.input-name:focus + .modal-form-icon {
+  fill: var(--primary-brand-color);
+  border-color: var(--primary-brand-color);
+}
+
 .modal-form-label {
   position: absolute;
   top: 0;
@@ -936,7 +941,11 @@ input.footer-label-input::placeholder {
   position: absolute;
   width: 100%;
   height: 100%;
+  padding: 0;
   padding-left: 38px;
+  border: 1px solid var(--dark-color);
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-icon {
@@ -980,7 +989,15 @@ input.footer-label-input::placeholder {
 .modal-form-accept {
   display: flex;
   width: 100%;
+}
+
+.modal-checkbox {
+  display: flex;
   margin-bottom: 24px;
+}
+
+.input-accept {
+  outline: none;
 }
 
 .checkbox-icon {
