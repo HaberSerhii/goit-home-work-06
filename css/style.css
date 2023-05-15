@@ -884,6 +884,7 @@ input.footer-label-input::placeholder {
 
 .modal-active-button {
   display: block;
+
   margin-left: auto;
   margin-right: auto;
   min-width: 169px;
@@ -908,10 +909,14 @@ input.footer-label-input::placeholder {
 .modal-active-button:hover,
 .modal-active-button:focus {
   background-color: var(--pressed-state-color);
-  cursor: pointer;
 }
 
 .modal-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -980,6 +985,7 @@ input.footer-label-input::placeholder {
   position: relative;
   width: 360px;
   height: 138px;
+  margin-bottom: 8px;
 }
 
 .form-textarea {
@@ -1010,7 +1016,7 @@ input.footer-label-input::placeholder {
 
 .modal-checkbox {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .input-accept {
