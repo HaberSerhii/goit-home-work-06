@@ -1023,11 +1023,11 @@ input.footer-label-input::placeholder {
 .modal-form-accept {
   display: flex;
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .modal-checkbox {
   display: flex;
-  margin-bottom: 16px;
 }
 
 .input-accept {
